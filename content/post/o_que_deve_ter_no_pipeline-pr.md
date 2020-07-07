@@ -14,7 +14,7 @@ Nesse artigo falaremos sobre o processo de revisão de código no Github baseado
 
 ## O que é Pull Request?
 
-Antes de entender o que é um Pull Request é necessário entender os conceito de branchs , fork e o básico de repositórios git. Esse [site](http://rogerdudler.github.io/git-guide/index.pt_BR.html) pode lhe ajudar nisso.
+Antes de entender o que é um Pull Request é necessário entender os conceitos de branchs, fork e o básico de repositórios git. Esse [site](http://rogerdudler.github.io/git-guide/index.pt_BR.html) pode lhe ajudar nisso.
 
 Uma vez que você já sabe que a branch é uma ramificação do código, eu acrescento que o fork é uma cópia inteira do seu repositório. Essa cópia mantém uma ligação simbólica entre o fork e o repositório origem. De forma prática, essa ligação não tem grande efeito no uso do dia a dia, ou seja, se alguém fizer fork do seu repositório e fizer mudanças nesse fork o seu repositório não será afetado automaticamente.
 
@@ -75,7 +75,7 @@ O ideal é que o PR tenha o seguinte conteúdo:
 
 Uma descrição seguindo esse modelo ajudará a pessoa que vai avaliar seu PR e ela talvez não precisará lhe perguntar nada, pois tudo que precisa saber sobre o trabalho e como avaliar ele está descrito lá.
 
-Acredite, cinco ou dez minutos investidos na criação de uma boa descrição de PR pode lhe "salvar" várias interrupções para explicação da sua mudança.
+Acredite, cinco ou dez minutos investidos na criação de uma boa descrição de PR pode lhe poupar várias interrupções para explicação da sua mudança.
 
 A dificuldade em escrever na descrição do seu PR é um possível indicativo que você não está confiante e não tem uma real noção sobre o que foi entregue. Imagine que talvez esse seja o momento de você organizar mentalmente o que foi entregue.
 
@@ -104,7 +104,7 @@ Pronto, com isso você está dizendo que sua análise não levará em conta a qu
 
 ### As mudanças que estão sendo propostas no PR seguem o padrão que é usado nessa organização?
 
-A maioria das organizações seguem alguns padrões para como escrever código, seja em sua  formatação (ex. quatro espaço, ponto e vírgula em cima ou embaixo)  ou em como organizar funções, métodos e afins.
+A maioria das organizações seguem alguns padrões para como escrever código, seja em sua formatação (ex. quatro espaço, ponto e vírgula em cima ou embaixo) ou em como organizar funções, métodos e afins.
 
 Esse padrão deve estar claro em algum lugar, e a pessoa que vai colaborar deve ler isso antes, mas nem sempre isso é possível e dessa forma a colaboração pode não seguir esse padrão. Você que está avaliando deve deixar bem claro para pessoa qual regra ela está infligindo e qual parte do código isso acontece. O github oferece a funcionalidade de comentar nas linhas do código do PR.
 
@@ -114,7 +114,7 @@ Depois que comentar todo o PR, não se esqueça de finalizar sua revisão, pois 
 
 ![Revisão de PR](/img/pullrequest5.png)
 
-Se precisar que a pessoa atualize algo para que o PR seja aceito escolha a opção de "Request changes" (Solicita mudanças), caso contrário aprove ou comente sem aprovar, caso precise de mais tempo para decidir sobre aceitar ou não.
+Se precisar que a pessoa atualize algo para que o PR seja aceito escolha a opção de "Request changes" (Solicitar mudanças), caso contrário aprove ou comente sem aprovar, caso precise de mais tempo para decidir sobre aceitar ou não.
 
 ### A forma que a pessoa entregou à funcionalidade é a melhor? Existe maneira mais eficiente de fazer a mesma coisa? 
 
@@ -142,10 +142,10 @@ A pessoa que mandou o PR não é necessariamente melhor do que você, ela apenas
 
 Normalmente os prazos em empresas são apertados e uma longa lista de correções desanima, mas veja que o problema está no prazo curto que normalmente as empresas trabalham. Nesse caso, o que pode ser feito se divide em duas possibilidades:
 
-Você pode calcular no futuro o prazo levando em consideração esse nível de exigência na revisão
+Você pode calcular no futuro o prazo levando em consideração esse nível de exigência na revisão.
 Negociar com a pessoa que revisou partes das críticas, tentando explicar sobre os prazos e afins. 
 
-Uma dica aqui é fazer com que seu PR seja o menor possível, pois quanto menor a possibilidade de retrabalho no retorno da revisão é menor.
+Uma dica aqui é fazer com que seu PR seja o menor possível, pois quanto menor o PR, menor a possibilidade de retrabalho no retorno da revisão.
 
 ## Quantas pessoas devem revisar meu código?
 
